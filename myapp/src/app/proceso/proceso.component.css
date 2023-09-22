@@ -1,0 +1,28 @@
+body {
+  background-color: #87CEEB; /* Celeste */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#contenido {
+  text-align: center;
+}
+
+#boton {
+  background-color: #4169E1; /* Azul real */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#boton:hover {
+  background-color: #6495ED; /* Azul pálido */
+}

@@ -18,6 +18,7 @@ const routes: Routes = [
   { path:'add', component:  EditprendasComponent },
   { path:'add/:id', component:  EditprendasComponent }, 
   { path:'crud', component: CrudProductosComponent },
+  { path:'proceso', component: CrudProductosComponent },
   { path:'productos', component: ProductosComponent }
 ];
 
