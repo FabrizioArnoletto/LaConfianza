@@ -1,18 +1,42 @@
-/* nosotros.component.css */
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #66CCFF;
+  color: #333;
+}
 
-div {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 18px;
-    color: #666;
-    margin-top: 10px;
-  }
-  
+/* Estilos de la sección Nosotros */
+.nosotros {
+  background-color: #0099CC;
+  padding: 50px;
+  text-align: center;
+}
+
+.titulo-nosotros {
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.equipo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.miembro {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.miembro h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+
+.miembro p {
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
