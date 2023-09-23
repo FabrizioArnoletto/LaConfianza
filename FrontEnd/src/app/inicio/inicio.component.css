@@ -1,0 +1,73 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0099CC;
+  color: #333;
+}
+
+/* Estilos de encabezado */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+}
+
+/* Estilos de la sección del héroe */
+.hero {
+  background-color: #66CCFF;
+  padding: 50px;
+  text-align: center;
+}
+
+.titulo-hero {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.descripcion-hero {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: #003366;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-destacado {
+  background-color: #FF4500;
+}
+
+/* Estilos de la sección de productos destacados */
+.destacados {
+  background-color: #66CCFF;
+  padding: 50px;
+  text-align: center;
+}
+
+.titulo-destacados {
+  font-size: 1.8rem;
+}
+
+.producto {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.producto h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.producto p {
+  font-size: 1.2rem;
+}
