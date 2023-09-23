@@ -1,7 +1,7 @@
 import db from '../db/conection';
 import { DataTypes } from 'sequelize';
 
-const Prenda = db.define('Prendas', {
+const Accesorio = db.define('Accesorio', {
     nombre : {
         type: DataTypes.STRING },
     talle : {
@@ -14,12 +14,10 @@ const Prenda = db.define('Prendas', {
         type: DataTypes.DOUBLE },
     imagen : {
         type: DataTypes.STRING },
-    IDcategoria : {
-        type: DataTypes.INTEGER },
 },{
     createdAt:false,
     updatedAt:false
 }
 );
 
-export default Prenda;
+export default Accesorio;
